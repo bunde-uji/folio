@@ -80,7 +80,7 @@ const PortfolioPage = () => {
             <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300" />
             {items.map((item) => (
               <div
-                className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`}
+                className={`h-screen w-screen max-sm:px-10 flex items-center justify-center bg-gradient-to-r ${item.color}`}
                 key={item.id}
               >
                 <div className="flex flex-col gap-8 text-white">
