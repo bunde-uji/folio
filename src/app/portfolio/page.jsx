@@ -32,11 +32,19 @@ const items = [
   {
     id: 4,
     color: "from-purple-300 to-red-300",
-    title: "Coinfi",
-    desc: "A landing page for a crypo company",
+    title: "Imperium",
+    desc: "A multi-vendor e-commerce platform called Imperium, by Sterling Bank",
     img: "/coinfi.png",
     link: "https://coinfi.netlify.app/",
   },
+ // {
+ //    id: 4,
+ //    color: "from-purple-300 to-red-300",
+ //    title: "Coinfi",
+ //    desc: "A landing page for a crypo company",
+ //    img: "/coinfi.png",
+ //    link: "https://coinfi.netlify.app/",
+ //  },
 ];
 
 const PortfolioPage = () => {
