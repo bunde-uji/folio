@@ -8,43 +8,43 @@ const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
+    title: "Bimi AI",
+    desc: "Bimi AI is a platform for sourcing information on Nigeria's fiscal data",
+    img: "/bimi.png",
+    link: "https://bimi.budgit.org/",
+  },
+  {
+    id: 2,
+    color: "from-red-300 to-blue-300",
     title: "FB Mnyim & Co.",
     desc: "FB Mnyim and Co is a Nigerian law firm",
     img: "/fbmnyim-homepage.png",
     link: "https://fbmnyimco.com",
   },
   {
-    id: 2,
+    id: 3,
     color: "from-blue-300 to-violet-300",
     title: "Clearscrow",
     desc: "Clearscrow is an online escrow platform",
     img: "/clearscrow.png",
     link: "https://clearscrow.online",
   },
-  {
-    id: 3,
-    color: "from-violet-300 to-purple-300",
-    title: "Optimus Fitness",
-    desc: "An ecommerce web app for gym equipment",
-    img: "optimus.png",
-    link: "https://optimusfitness.netlify.app/",
-  },
-  {
-    id: 4,
-    color: "from-purple-300 to-red-300",
-    title: "Imperium",
-    desc: "A multi-vendor e-commerce platform called Imperium, by Sterling Bank",
-    img: "/coinfi.png",
-    link: "https://coinfi.netlify.app/",
-  },
- // {
- //    id: 4,
- //    color: "from-purple-300 to-red-300",
- //    title: "Coinfi",
- //    desc: "A landing page for a crypo company",
- //    img: "/coinfi.png",
- //    link: "https://coinfi.netlify.app/",
- //  },
+  // {
+  //   id: 3,
+  //   color: "from-violet-300 to-purple-300",
+  //   title: "Optimus Fitness",
+  //   desc: "An ecommerce web app for gym equipment",
+  //   img: "optimus.png",
+  //   link: "https://optimusfitness.netlify.app/",
+  // },
+  // {
+  //   id: 4,
+  //   color: "from-purple-300 to-red-300",
+  //   title: "Coinfi",
+  //   desc: "A landing page for a crypo company",
+  //   img: "/coinfi.png",
+  //   link: "https://coinfi.netlify.app/",
+  // },
 ];
 
 const PortfolioPage = () => {
@@ -108,7 +108,7 @@ const PortfolioPage = () => {
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                     {item.desc}
                   </p>
-                  <Link href={item.link} className="flex justify-end">
+                  <Link href={item.link} target="_blank" className="flex justify-end">
                     <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">
                       See Demo
                     </button>
