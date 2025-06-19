@@ -9,7 +9,7 @@ const items = [
     id: 1,
     color: "from-red-300 to-blue-300",
     title: "Bimi AI",
-    desc: "Bimi AI is a platform for sourcing information on Nigeria's fiscal data",
+    desc: "Bimi is an AI chat platform for sourcing information on Nigeria's fiscal data",
     img: "/bimi.png",
     link: "https://bimi.budgit.org/",
   },
